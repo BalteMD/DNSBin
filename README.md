@@ -30,7 +30,7 @@ cp config.example.yaml config.yml
 docker-compose up -d
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 Edit `config.yml`:
 
