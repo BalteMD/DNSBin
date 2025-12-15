@@ -1,0 +1,18 @@
+environment: development
+db_source: postgresql://root:c4X1BtFHi60rON@localhost:5432/dnsbin?sslmode=disable
+interval: 0s
+migration_url: file://db/migration
+http_server_address: 0.0.0.0:8080
+dns_domain: 
+txt_value: ""
+http_log:
+  - 
+
+endpoint: ""
+insecure: false
+proxy_url: ""
+
+notify:
+  - type: telegram
+    bot_token: 
+    chat_id: 
